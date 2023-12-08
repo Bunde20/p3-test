@@ -7,8 +7,8 @@ import AlertModal from "../../components/AlertModal.jsx";
 import LogOutBtn from "../../components/LogOutBtn.jsx";
 import AlertModal2 from "../../components/AlertModal2.jsx";
 import axios from "axios";
-import userApi from "../../utils/userApi";
-import cardApi from "../../utils/cardApi";
+// import userAPI from "../../utils/userAPI";
+// import cardAPI from "../../utils/cardAPI";
 
 const btnLoggedOutTxt = [
   {
