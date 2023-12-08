@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "";
+const baseURL = "/api/trade/offers";
 
 const getAllOffers = () => {
   return axios.get(`/api/trade/offers`);

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = ""
+const baseURL = "/api/cards"
 
 const getAllCards = () => {
   return axios.get(`/api/cards`);
