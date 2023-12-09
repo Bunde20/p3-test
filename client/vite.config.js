@@ -9,7 +9,7 @@ export default defineConfig({
     open: true,
     proxy: {
       "/api": {
-        target: "http://localhost:3000",
+        target: "https://p3-test2023.onrender.com/",
         secure: false,
         changeOrigin: true,
       },
