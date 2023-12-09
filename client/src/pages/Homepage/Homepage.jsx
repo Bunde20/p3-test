@@ -82,7 +82,7 @@ export default function Homepage() {
 
   const handleLogin = async (username, password) => {
     try {
-      const res = await fetch("http://localhost:3000/api/login", {
+      const res = await fetch("/api/login", {
         method: "POST",
         body: JSON.stringify({ username, password }),
         headers: {

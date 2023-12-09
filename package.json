@@ -16,6 +16,7 @@
     "concurrently": "^8.2.2"
   },
   "dependencies": {
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0"
   }
 }
